@@ -4,7 +4,8 @@ import Image from "next/image";
 import { reviews } from "@/info";
 import { Star } from "@mui/icons-material";
 import { useTheme } from '@mui/material/styles';
-import SwipeableViews from 'react-swipeable-views';
+// import SwipeableViews from 'react-swipeable-views';
+import SwipeableViews from 'react-swipeable-views-react-18-fix';
 import { autoPlay } from 'react-swipeable-views-utils';
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
