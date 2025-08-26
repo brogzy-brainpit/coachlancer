@@ -6,6 +6,7 @@
     "node": "22.x"
   },
   "scripts": {
+    "vercel-build": "npm install --legacy-peer-deps && next build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -34,8 +35,6 @@
     "react-email": "^1.9.4",
     "react-fast-marquee": "^1.6.5",
     "react-markdown": "^9.0.3",
-    "react-swipeable-views": "^0.14.0",
-    "react-swipeable-views-utils": "^0.14.0",
     "react-syntax-highlighter": "^15.6.1",
     "react-toastify": "^11.0.3",
     "remark-gfm": "^4.0.0",
